@@ -1,7 +1,7 @@
 {
   "name": "repositories-command",
   "title": "Repositories Command",
-  "version": "0.1.0-beta.1",
+  "version": "0.1.0-beta.2",
   "description": "Un comando para la terminal que ayuda a moverse entre proyectos.",
   "scripts": {
     "postinstall": "node index.js toinstall"
