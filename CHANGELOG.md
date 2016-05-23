@@ -5,6 +5,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## Unreleased
 ### Added
 
+ - Fix: Name Project
+
 ## 0.1.0-beta.1
 ### Added
 
