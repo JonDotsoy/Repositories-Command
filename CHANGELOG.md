@@ -5,6 +5,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## Unreleased
 ### Added
 
+## 0.1.0-beta.4
+### Added
+
+ - Fix: Project version file.
+
 ## 0.1.0-beta.3
 ### Added
 
