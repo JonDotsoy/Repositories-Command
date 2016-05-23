@@ -1,5 +1,6 @@
 {
-  "name": "repositorioes-command",
+  "name": "repositories-command",
+  "title": "Repositories Command",
   "version": "0.1.0-beta.1",
   "description": "Un comando para la terminal que ayuda a moverse entre proyectos.",
   "scripts": {
