@@ -1,7 +1,7 @@
 
 function repositories-help {
 cat <<EOF
-Repositories Command (0.1.0-beta.4) (c) 2016 Jonathan Delgado <hi@jon.soy>
+Repositories Command (<%= version %>) (c) 2016 Jonathan Delgado <hi@jon.soy>
 Usage: repositories [COMMAND]
 
 Command:

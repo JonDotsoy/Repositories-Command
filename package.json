@@ -3,8 +3,15 @@
   "title": "Repositories Command",
   "version": "0.1.0-beta.4",
   "description": "Un comando para la terminal que ayuda a moverse entre proyectos.",
+  "engines": {
+    "node": ">=6.2.0"
+  },
   "scripts": {
-    "postinstall": "node index.js toinstall"
+    "build": "node src/install.js",
+    "postinstall": "npm run-script build"
+  },
+  "bin": {
+    "r": "bin/repositories.bash"
   },
   "repository": {
     "type": "git",
@@ -16,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/JonDotsoy/Repositories-Command/issues"
   },
-  "homepage": "https://github.com/JonDotsoy/Repositories-Command#readme"
+  "homepage": "https://github.com/JonDotsoy/Repositories-Command#readme",
+  "dependencies": {
+    "ejs": "^2.4.2"
+  }
 }
