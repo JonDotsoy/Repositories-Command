@@ -2,7 +2,7 @@
 ## Repositories CD ##
 # Cambia el directorio al del directorio encontrado
 function repositories-cd {
-	local retpath="$(repositories-alias-names $1)" 
+	local retpath="$(. "<%= RepositoriesAliasNames %>" $1)" 
 
 	if [[ "${retpath}" == "" ]]
 		then
@@ -12,3 +12,5 @@ function repositories-cd {
 		cd "${retpath}"
 	fi
 }
+
+repositories-cd $*
