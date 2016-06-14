@@ -1,15 +1,17 @@
 
 function repositories-help {
 cat <<EOF
-Repositories Command (<%= version %>) (c) 2016 Jonathan Delgado <hi@jon.soy>
-Usage: repositories [COMMAND]
+<%= pkg.title %> (<%= version %>) (c) 2016 <%= pkg.author.name %> <<%= pkg.author.email %>> (<%= pkg.author.url %>)
+Uso: repositories [COMMAND]
 
 Command:
     alias <name_project>      Muestra el path de un repositorio.
+    install, i                Muestra alias para usar en ".bashrc".
     cd <name_project>         Cambia de directorio al de un proyecto
                               seleccionada.
-    help
-    list
+    list                      Muestra lista de repositorios.
+    version, v                Muestra versión actual.
+    help                      Muestra esta ventana.
 EOF
 }
 
