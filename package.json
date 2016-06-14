@@ -11,14 +11,21 @@
     "postinstall": "npm run-script build"
   },
   "bin": {
-    "r": "bin/repositories.bash"
+    "repositories": "bin/repositories.bash"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JonDotsoy/Repositories-Command.git"
   },
-  "keywords": [],
-  "author": "Jon Dotsoy <hi@jon.soy> (http://jon.soy/)",
+  "keywords": [
+    "repositories",
+    "command"
+  ],
+  "author": {
+    "name": "Jonathan Delgado",
+    "email": "hi@jon.soy",
+    "url": "http://jon.soy/"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/JonDotsoy/Repositories-Command/issues"
