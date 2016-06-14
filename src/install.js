@@ -36,8 +36,10 @@ let buildFiles = [
 ]
 
 let optionsViews = {
+	pkg,
 	version: pkg.version,
 	path: path.resolve( `${ __dirname }/../bin/` ),
+	"Repositories": path.resolve( `${ __dirname }/../bin/${"repositories.bash"}` ),
 	"RepositoriesAliasNames": path.resolve( `${ __dirname }/../bin/${"repositories-alias-names.bash"}` ),
 	"RepositoriesCd": path.resolve( `${ __dirname }/../bin/${"repositories-cd.bash"}` ),
 	"RepositoriesHelp": path.resolve( `${ __dirname }/../bin/${"repositories-help.bash"}` ),
